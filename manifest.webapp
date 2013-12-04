@@ -1,0 +1,23 @@
+﻿{
+  "version": "0.1",
+  "name": "Nike SB PoC",
+  "description": "PoC for Nike SB App",
+  "launch_path": "/Splash.html",
+  "icons": {
+    "16": "/img/icon16.png",
+    "38": "/img/icon38.png",
+    "128": "/img/icon128.png"
+  },
+  "developer": {
+    "name": "Jake Hall",
+    "url": "http://www.nikesbapp.com"
+  },
+  "type": "privileged",
+	"permissions": {
+		"systemXHR": {
+			"description": "Connection with the nike sb app."
+		}
+	},
+  "locales": { },
+  "default_locale": "en"
+}

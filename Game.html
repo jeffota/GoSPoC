@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Nike SB</title>
+	<meta name="viewport" content="width=device-width" />
+	<script src="js/jquery.js" type="text/javascript"></script>
+	<script src="js/common.js" type="text/javascript"></script>
+	<script src="js/Game.js" type="text/javascript"></script>
+	<link rel="stylesheet" href="css/GoS.css"/>
+</head>
+	<body>
+		<h2>Nike SB</h2>
+		<div id="videoContent" class="video_content">
+			<iframe id="videoFrame" class="video" frameborder="0"
+			        title="YouTube video player" width="100%" height="300"
+			        src="#" data-playerid="0"></iframe>
+			Did they land the trick?
+			<input type='button' id="yesButton" onclick="alert('boo');" value='yes' />
+			<input type='button' id="noButton" value='no' />
+		</div>
+		<div id='selectATrick'>
+			You're in control, select a trick
+			<select id="trickList">
+				<option value="10001000">Ollie</option>
+				<option id="10267000">Nollie Kickflip</option>
+				<option id="10065000">B/S Tailslide</option>
+			</select>
+			<input type="button" id="recordButton" value="Record Your Trick"/>
+		</div>
+		<div id='errorDiv'></div>
+	</body>
+</html>
