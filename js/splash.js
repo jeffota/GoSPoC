@@ -1,1 +1,0 @@
-﻿window.location = '../login.html';
