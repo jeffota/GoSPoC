@@ -115,7 +115,7 @@ var GoS = function() {
                 success: function (data) {
                     myID = data.message.user.id;
                     myProfilePic = data.message.user.profilePicUrl;
-                    loadPage("/Home.html");
+                    loadPage("Home.html");
                 },
                 error: function (data, xhr, message) {
                     $("#errorDiv").text("error loading profile " + message);
